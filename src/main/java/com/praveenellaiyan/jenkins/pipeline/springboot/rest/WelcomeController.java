@@ -16,6 +16,7 @@ public class WelcomeController {
 
 	@RequestMapping
 	public ResponseEntity<String> welcome() {
+		System.out.println("");
 		return ResponseEntity.ok("Welcome to Jenkins tutorial!");
 	}
 }
